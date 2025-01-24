@@ -1,5 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import './assets/scss/main.scss'
+import Vuelidate from '@vuelidate/core'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+
+app.use(Vuelidate)
+
+app.mount('#app')

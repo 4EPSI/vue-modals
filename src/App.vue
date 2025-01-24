@@ -31,7 +31,7 @@
               </form>
             </template>
           </modals>
-
+          vadon1020@gmail.com
           <button @click="modalValidate = !modalValidate" class="btn btnPrimary">Show modal with form + validate</button>
           <modalValidate v-show="modalValidate" @close="modalValidate = false" />
         </div>
